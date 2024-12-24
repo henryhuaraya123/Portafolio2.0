@@ -12,6 +12,7 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
 
   <div class="card">
+    <h1 style="text-align: center;">CREACIÓN DE LAS CONFIGURACIONES</h1>
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
       Edit
